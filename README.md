@@ -1,6 +1,6 @@
 ﻿<h1> Destiny-Scss</h1>
 
-Canlı Proje:https://personal-tr-scss.netlify.app/
+Canlı Proje: https://destiny-scss.netlify.app/
 
 <h2>Özellikler</h2>
 
