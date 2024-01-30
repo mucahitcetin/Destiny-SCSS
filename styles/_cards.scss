@@ -1,0 +1,79 @@
+.cards-sec-info {
+    max-width: 600px;
+    display: grid;
+    gap: 40px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid gray;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .card video {
+    width: 200px;
+  }
+
+  .welcome {
+    font-size: 56px;
+    max-width: 1300px;
+    padding: 100px;
+    /* grabient.com ' dan aldık */
+    background-image: linear-gradient(
+      45deg,
+      #fa8bff 30%,
+      #2bd2ff 62%,
+      #2bff88 90%
+    );
+    /* arkaplanı yazıya aktarma */
+    -webkit-background-clip: text;
+    /* yazıya aktardığımız arkaplanı gösterme */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #what-sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  #what-sec .info {
+    max-width: 400px;
+  }
+  #what-sec .info h1 {
+    margin-bottom: 50px;
+  }
+  
+  #what-sec .cards {
+    display: flex;
+    gap: 100px;
+  }
+  
+  #what-sec .cards .what-card {
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    background-color: #323443;
+    border-radius: 10px;
+    padding: 30px 20px;
+    position: relative;
+  }
+  
+  #what-sec .cards .what-card img {
+    position: absolute;
+    width: 50px;
+    top: -50px;
+  }

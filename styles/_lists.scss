@@ -1,0 +1,36 @@
+.list-sec {
+    margin: 50px 0;
+    & .info {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      & ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 40px;
+        & span {
+            color: gray;
+            font-weight: 400;
+            font-size: 15px;
+            margin-bottom: 5px;
+          }
+          & img {
+            width: 50px;
+          }
+      }
+  }
+  
+
+  #list-sec .info h2,
+  .info p {
+    max-width: 400px;
+  }
+  
+  
+ 
+  

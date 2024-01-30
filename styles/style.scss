@@ -1,0 +1,60 @@
+@import 'variables';
+@import 'modules';
+@import 'header';
+@import 'hero';
+@import 'window';
+@import 'cards';
+@import 'lists';
+@import 'project';
+@import 'team';
+@import 'donate';
+@import 'image';
+@import 'footer';
+
+@import 'responsive';
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    @extend %heading
+}
+
+p {
+    @extend %paragraph
+}
+
+a {
+    @extend %a
+}
+
+button {
+    @extend %button
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ana Stiller */
+body {
+    background: $black;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
+section {
+    padding: 30px;
+  }
+
+
+

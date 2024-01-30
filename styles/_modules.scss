@@ -1,0 +1,33 @@
+@import "variables";
+
+%a {
+  text-decoration: none;
+  color: $white;
+}
+
+
+%paragraph {
+  font-family: 'Poppins';
+  color: $gray;
+}
+
+%heading {
+  font-family: 'Inter';
+  color: $white;
+}
+
+%button {
+  font-family: 'Poppins';
+  border: none;
+  cursor: pointer;
+  padding: 7px 20px;
+  font-size: 16px;
+  border-radius: 16px;
+  transition: all 0.3s;
+
+  &:hover {
+    scale: 0.95;
+    box-shadow: 2px 2px 20px $gray;
+    transition: all 0.4s;
+  }
+}

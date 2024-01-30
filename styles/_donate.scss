@@ -1,0 +1,33 @@
+#donate-sec {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .donate-sec-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .donate-sec-content {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .donate-sec-people {
+    display: flex;
+    gap: 10px;
+    background: rgb(99, 0, 99);
+    color: white;
+    padding: 10px;
+    border-radius: 60px;
+  }
+  
+  .donate-sec-people img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  

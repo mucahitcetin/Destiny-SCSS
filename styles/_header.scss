@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: var(--black);
+    z-index: 999;
+
+    .nav-btn {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+
+        .spec-link {
+            color: $green;
+        }
+    }
+}

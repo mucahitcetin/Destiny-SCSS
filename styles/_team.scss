@@ -1,0 +1,50 @@
+#count-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .count-sec-left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    & .counter {
+        padding: 20px;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      & .boxes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        margin-top: 20px;
+        & .box {
+            background-color: rgb(0, 0, 21);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+          }
+      }
+      & .buttons {
+        display: flex;
+        gap: 20px;
+        & button {
+            background-color: transparent;
+            color: white;
+            border: 1px solid var(--green);
+            cursor: pointer;
+            &:hover {
+                background-color: var(--green);
+              }
+          }
+      }
+  }
+  
+  .count-sec-right img {
+    border-radius: 10px;
+  }

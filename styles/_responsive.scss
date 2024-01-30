@@ -1,0 +1,180 @@
+/* 1500px altında geçerli olacak stiller */
+@media (max-width: 1500px) {
+    #images-sec {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      margin-top: 40px;
+    }
+    #images-sec img {
+      width: 400px;
+    }
+  }
+  
+  /* 800px aşağısında cihazlar için geçerli */
+  @media (max-width: 800px) {
+    header nav {
+      display: none;
+    }
+    header .nav-btn {
+      display: block;
+    }
+    .toggle {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      right: 5px;
+      top: 70px;
+      background: #6a6a6a;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    /* hero alanı */
+    #hero {
+      align-items: center;
+      justify-content: center;
+    }
+    #hero-inner {
+      margin: 40px;
+    }
+    /* liste alanı */
+    #list-sec {
+      padding: 30px;
+    }
+    #list-sec .info {
+      flex-direction: column;
+    }
+    #list-sec .info h2,
+    .info p {
+      /* bu stile hiç değer ataması yapılmamış gibi davranır  */
+      max-width: unset;
+    }
+  
+    #what-sec .info {
+      flex-direction: column;
+      gap: 0px !important;
+      margin-bottom: 40px;
+    }
+    #what-sec .cards {
+      gap: 40px;
+    }
+    /* takım sayfası */
+    #count-sec {
+      flex-direction: column-reverse;
+    }
+    #count-sec .buttons {
+      font-size: 15px;
+      justify-content: space-between;
+    }
+    /* bağış alanı */
+    .donate-sec-content {
+      grid-template-columns: repeat(2, 200px) !important;
+    }
+  }
+  
+  /* ekran boyutu 1200px altındayken */
+  @media (max-width: 1200px) {
+    /* pencereler alanı */
+    #window-sec {
+      flex-direction: column;
+      align-items: center;
+    }
+    .window {
+      height: 300px;
+    }
+    /* What-Section */
+    #what-sec {
+      flex-direction: column;
+      gap: 50px;
+    }
+    #what-sec .info {
+      display: flex;
+      max-width: unset;
+      gap: 40px;
+    }
+    #what-sec .info h1 {
+      white-space: nowrap;
+    }
+    #what-sec .info p {
+      max-width: unset;
+    }
+    /* Projeler Alanı */
+    #projects-sec .project {
+      flex-direction: column-reverse;
+    }
+    #projects-sec .project-image {
+      justify-content: center;
+      padding: 20px 100px 0;
+    }
+  
+    #images-sec img {
+      width: 300px;
+    }
+  }
+  
+  /* ekran boyutu 1000px altındayken */
+  @media (max-width: 1000px) {
+    footer .links {
+      grid-template-columns: 1fr 1fr;
+      /* satırlar arası boşluk */
+      padding: 40px;
+      row-gap: 50px;
+      column-gap: 100px;
+    }
+    footer form {
+      flex-direction: column;
+      /* align-items: end; */
+    }
+    footer form input {
+      max-width: 200px;
+    }
+    
+    /* Kartlar Alanı */
+    .cards {
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+    .card {
+      max-width: 400px;
+    }
+  
+    /* projeler sayfası */
+    .welcome {
+      padding: 100px 20px;
+      font-size: 40px;
+    }
+  
+    /* bağış alanı */
+    .donate-sec-content {
+      grid-template-columns: repeat(3, 200px);
+    }
+  }
+  
+  /* ekran boyutu 500px altındayken */
+  @media (max-width: 500px) {
+    footer {
+      padding: 5px;
+    }
+    footer .links {
+      padding: 5px;
+      column-gap: 50px;
+    }
+  
+    .project-image {
+      padding: 0 30px !important;
+    }
+    .project-image img {
+      width: 100%;
+    }
+    .project-info {
+      margin-top: 70px;
+    }
+  }
+  
+  /* erkan boyutu 1000px'den yüksek ise */
+  @media (min-width: 1000px) {
+    section {
+      padding: 100px;
+    }
+  }
+  

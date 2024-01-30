@@ -1,0 +1,40 @@
+footer {
+    margin-top: 100px;
+    padding: 20px;
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+
+        .link-area {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    form {
+        display: flex;
+        gap: 20px;
+
+        input {
+            padding: 5px 10px;
+            border-radius: 10px;
+            max-height: 50px;
+        }
+
+        button {
+            background-color: $green;
+            white-space: nowrap;
+        }
+    }
+
+    .bottom {
+        text-align: center;
+        margin-top: 50px;
+        border-top: 1px solid $gray;
+        padding: 20px;
+    }
+
+}
